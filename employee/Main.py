@@ -27,6 +27,9 @@ def main():
 
     b = BasePlusCommissionEmployee("B", 14, 500_000.0, 5 / 100)
     b.set_gross_sales(10_000.0)
+    print(b.salary)
+    print(b.commission_rate)
+    print(b.earn())
     print(b.earn())
     print(b)
 
