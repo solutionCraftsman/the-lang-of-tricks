@@ -12,8 +12,8 @@ def play_guess_game():
             guess = int(guess)
             if guess == num:
                 guessed = True
-
-            print(f'Mehn bros, {guess} no correct oo, the number na {num}!')
+            else:
+                print(f'Mehn bros, {guess} no correct oo, the number na {num}!')
         except ValueError:
             print('Oga enter beta thing na ... lol')
 
